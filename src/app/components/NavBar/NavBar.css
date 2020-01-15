@@ -1,0 +1,43 @@
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-items: stretch;
+  align-items: center;
+}
+
+.nav-bar h1 {
+  font-weight: bolder;
+  margin: 0 0 0 1rem;
+  text-decoration: overline;
+}
+
+.nav-bar .nav-list {
+  flex-grow: 1;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0;
+  margin: 0 0 0 2rem;
+}
+.nav-bar .nav-item {
+  display: flex;
+}
+
+.nav-bar .nav-item a {
+  text-decoration: none;
+  color: 'black';
+  padding: 1.5rem 1rem;
+}
+
+.nav-bar .nav-item a.active {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-bar .nav-item a:active {
+  color: black;
+}
+
+.nav-bar .nav-item a:visited {
+  color: black;
+}

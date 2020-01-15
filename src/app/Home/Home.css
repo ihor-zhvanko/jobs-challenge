@@ -1,0 +1,87 @@
+.home-page {
+  display: flex;
+}
+
+/* job item */
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  width: 100%;
+
+  padding-inline-start: 0;
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+}
+
+.job-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  border-radius: 10px;
+}
+
+.job-item.empty {
+  text-align: center;
+}
+
+.job-item header h4,
+.job-item header h3 {
+  text-align: left;
+  margin: 0.2rem;
+}
+
+.job-list header h4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.job-item header h4 img {
+  width: 1.4rem;
+  margin-right: 0.4rem;
+}
+
+.job-item header h3 {
+  color: rgb(0, 148, 223);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.job-item header .job-company {
+  font-weight: normal;
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+}
+
+.job-item .job-tasks {
+  margin: 0.5rem 0 0 0;
+}
+
+.job-item .tasks-list {
+  list-style: circle;
+}
+
+.job-item .tasks-list .tasks-list-item {
+  font-size: 16px;
+  margin: 0.3rem 0;
+}
+
+.job-item .manage-job {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.job-item .manage-job-btn {
+  font-size: 16px;
+
+  padding: 0.3rem 0.8rem;
+  margin-left: 0.5rem;
+}

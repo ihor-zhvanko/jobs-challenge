@@ -1,0 +1,18 @@
+export default [
+  'Baden-Württemberg',
+  'Bavaria',
+  'Berlin',
+  'Brandenburg',
+  'Bremen',
+  'Hamburg',
+  'Hessen',
+  'Lower Saxony',
+  'Mecklenburg-West Pomerania',
+  'North Rhine-Westphalia',
+  'Rhineland-Palatinate',
+  'Saarland',
+  'Saxony',
+  'Saxony-Anhalt',
+  'Schleswig-Holstein',
+  'Thuringia',
+]
